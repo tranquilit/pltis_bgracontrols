@@ -129,7 +129,7 @@ type
     property DragMode;
     property Enabled;
     property FontEx;
-    {$IFDEF FPC}
+    {$IFNDEF FPC}
     property ParentBackground;
     {$ENDIF}
     property PopupMenu;
